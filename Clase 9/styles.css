@@ -16,5 +16,6 @@ p {
 }
 
 .parrafo-1{
-    display: none;
+    /* visibility: hidden; */ /* se oculta, pero sigue ocupando el espacio */
+    display: none;  /* se oculta y NO ocupa el espacio */
 }

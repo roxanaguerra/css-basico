@@ -1,7 +1,8 @@
 /*
 
 Structural
-    :root - Representa la raiz del documento (html) usando una pseudoclase tenemos más especificidad que si usáramos html
+    :root - Representa la raiz del documento (html) usando una pseudoclase tenemos más especificidad
+     que si usáramos html
 
     :empty - Esta pseudoclase se aplica para los elementos vacios, es decir, etiquetas que no tienen contenido
     
@@ -31,6 +32,7 @@ Negation
     :not() - Selecciona al elemento que no cumpla la condición, se puede poner cualquier selector salvo otro :not
 */
 
+/* PRIMERA PRUEBA */
 /* .paragraph{
     padding: .5em;
     background:lightblue;
@@ -40,6 +42,7 @@ Negation
     all:unset;
 } */
 
+/* SEGUNDA PRUEBA */
 /* .paragraph:first-child {
     background: red;
 }
@@ -48,6 +51,7 @@ Negation
     background: blue;
 } */
 
+/* TERCERA PRUEBA */
 /* .paragraph:nth-child(odd) {
     background: lightcoral;
 } */
@@ -86,6 +90,6 @@ Negation
     background: red;
 } */
 
-.paragraph:not(.first) {
+/* .paragraph:not(.first) {
     background: green;
-}
+} */

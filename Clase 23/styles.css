@@ -20,7 +20,8 @@ Familias genéricas o seguras
 
 FONT
     font-family: Establece la familia tipográfica
-        Se utiliza el nombre propio de la fuente o una familia genérica, se recomienda utilizar SIEMPRE fuentes de reserva ('Times New Roman', Times, serif)
+        Se utiliza el nombre propio de la fuente o una familia genérica, se recomienda utilizar SIEMPRE 
+        fuentes de reserva ('Times New Roman', Times, serif)
     font-size: Establece el tamaño de fuente
         Se define en unidades:
             px: pixeles (medida absoluta)

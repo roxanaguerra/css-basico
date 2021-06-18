@@ -23,16 +23,23 @@ outline-left-(width | style | color)
 
 */
 
-[class*=box] {
-    width: 200px;
-    height: 200px;
-    margin: 2em;
+.img-box {
+    width: 90%;
+    margin: 2em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box1 {
-    background: yellowgreen;
-    border: 5px solid red;
-    border-top-width: 200px;
-    border-top-color: transparent;
+img {
+    border: 5px solid yellowgreen;
+    outline: 10px solid yellow;
+    outline-offset: -45px;
 }
 
+.text {
+    position: absolute;
+    color: yellow;
+    font-size: 3em;
+}

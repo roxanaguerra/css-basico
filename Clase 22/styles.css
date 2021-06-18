@@ -46,7 +46,7 @@ background-attachment: permite establecer si el fondo se coloca respecto a la ca
 
 body {
     padding-bottom: 50em;
-    text-align: center;
+    text-align: c0enter;
 }
 
 .bg-color {
@@ -85,7 +85,7 @@ body {
 }
 
 .bg-clip {
-    background-clip: border-box;
+    background-clip: content-box;
     border: 10px dotted red;
     background-image: url(cafe.jpeg);
     background-size: contain;
@@ -108,4 +108,5 @@ body {
     background-size: 30%, cover;
     background-repeat: no-repeat;
     background-position: bottom right, center;
+    background-attachment: scroll, fixed;
 }

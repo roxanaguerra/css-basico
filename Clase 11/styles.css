@@ -16,7 +16,7 @@ Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z
     margin-left: auto;
     margin-right: auto;
     border: 3px solid black;
-    position: relative;
+    /* position: relative; */
 }
 
 [class^=box] {

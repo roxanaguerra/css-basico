@@ -13,15 +13,15 @@ Language
     :lang() - Elemento que contiene el atributo lang que especifiquemos
 */
 
-/*
-    ===Ejercicios PSEUDOCLASES I===
+
+    /* ===Ejercicios PSEUDOCLASES I=== */
 
         .link:link {
             color: red;
         }
 
         .link:visited {
-            color: chartreuse
+            color: chartreuse;
         }
 
         .link:active {
@@ -52,11 +52,12 @@ Language
             border: 1px solid;
             border-radius: 10px;
         }
-
+        
         .input:focus {
-            background: green;
+            background: chartreuse;
         }
 
+        /* AL HACER CLICK SE MUEVE HASTA DONDE ESTA EL PARRAFO */
         .menu {
             background: lightblue;
             display: block;
@@ -89,4 +90,3 @@ Language
         .span:lang(es) {
             color: blue;
         }
-        */

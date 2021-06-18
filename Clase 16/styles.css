@@ -24,6 +24,10 @@ Existen 5 pseudoelementos:
     color:blue;
 }
 
+.inline{
+    display: block;
+    /* display: inline-block; */
+}
 .inline::first-letter{
     color: red;
     font-size: 2em;

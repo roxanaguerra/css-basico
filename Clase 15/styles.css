@@ -24,7 +24,10 @@
 
 .inline{
     background: lime;
-    display: none;
+    /* display: none; */
+    
+    display: inline-block;
+    margin-bottom: 2em;
 }
 
 .block{
